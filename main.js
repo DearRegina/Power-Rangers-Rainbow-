@@ -33,8 +33,9 @@ function myKeyDown(e)
 keyPressed = e.keyCode;
 console.log(keyPressed);
 
-	if(keyPressed == '82') 
+	if(keyPressed == '69') 
 	{
+		blockX=1;
 		newImage('rr1.png');
 		console.log("r")
 	}
